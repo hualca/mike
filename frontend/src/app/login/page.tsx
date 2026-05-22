@@ -120,10 +120,7 @@ export default function LoginPage() {
                     </form>
                 </div>
                 <p className="text-center text-xs text-gray-500 leading-relaxed px-2">
-                    Mike hosted on MikeOSS.com is currently a demo service.
-                    Please do not upload, submit, or store sensitive,
-                    confidential, privileged, client, or personally
-                    identifiable documents.
+                    This is a forked version of mike oss for threec.ai.  This tool is still in alpha and is not yet suitable for client data.
                 </p>
             </div>
         </div>
