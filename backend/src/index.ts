@@ -119,7 +119,7 @@ app.use("/user", userRouter);
 app.use("/users", userRouter);
 app.use("/download", downloadsRouter);
 
-app.get("/health", (_req, res) => res.json({ ok: true }));
+app.get("/health", (_req, res) => res.json({ ok: true, buildMarker: "phase0-repoint-2026-05-23" }));
 
 app.listen(PORT, () => {
   console.log(`Mike backend running on port ${PORT}`);
